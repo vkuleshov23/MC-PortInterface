@@ -9,7 +9,6 @@ port_interface.h
 #ifndef _5_BIT_PORT_
 #define _5_BIT_PORT_
 #include <cstdint>
-#include <iostream>
 class PortInterface {
 private:
 	uint8_t DDR = 0b00000000; ///< Регистр управления параметрами ввода/вывода порта
